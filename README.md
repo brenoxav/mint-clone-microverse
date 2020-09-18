@@ -12,7 +12,7 @@ A clone of the Sign Up Form page for [Mint](https://www.mint.com/).
 
 ## Live Demo
 
-[Live Demo Link](https://pointerish.github.io/YouTube-Clone-Microverse/)
+[Live Demo Link](https://brenoxav.github.io/mint-clone-microverse/)
 
 ## Authors
 
