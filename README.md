@@ -2,7 +2,7 @@
 
 # Sign Up Form - A Microverse Project
 
-A clone of the Sign Up Form page for mint.com
+A clone of the Sign Up Form page for [Mint](https://www.mint.com/).
 
 ![screenshot](./assets/screenshot.png)
 
