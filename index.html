@@ -8,41 +8,44 @@
 </head>
 <body>
     <header>
-        <div>
-            <div>Already have an Intuit account?</div>
-            <div>I forgot my User ID or Password</div>
+        <div class="d-flex signin-wrapper">
+            <div class="signin-text-wrapper">
+                <div>Already have an Intuit account?</div>
+                <div>I forgot my User ID or Password</div>
+            </div>
             <button>Sign In</button>
         </div>
-        <div>
-            <img src="#" alt="intuit logo">
+        <div class="d-flex logos-wrapper">
+            
+            <img class="intuit-logo" src="assets/logo-intuit.png" alt="intuit logo">
             <div>
                 <ul>
-                    <li>mint</li>
-                    <li>quickbooks</li>
-                    <li>turbotax</li>
+                    <li><a href="#" ><img class="logos" src="assets/icon-mint.png"/>Mint</a></li>
+                    <li><a href="#" ><img class="logos" src="assets/icon-quickbooks.jpg"/>Quickbooks</a></li>
+                    <li><a href="#" ><img class="logos" src="assets/icon-turbotax.png"/>TurboTax</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    <main>
-        <div>
+    <main class="d-flex">
+        <div class="d-flex form-wrapper">
             <h2>Create an Intuit account</h2>
             <div>One account for everything Intuit, including Mint.</div>
             <a href="#">Learn more</a>
-            <form action="">
-                <label for=""></label>
-                <input type="email" name="user-email">
-                <label for=""></label>
-                <input type="tel" name="user-phone">
-                <label for=""></label>
-                <input type="password" name="user-password">
-                <input type="submit" name="send">
+            <form action="#">
+                <label for="email">Email address</label>
+                <input type="email" name="email">
+                <label for="phone">Phone (recommended)</label>
+                <input type="tel" name="phone">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+                <input type="submit" name="send" value="Create Account"/>
             </form>
-            <div>
+            <div class="acknowledgement">
                 By clicking Create account, you agree to our
                 Terms and have read and acknowledge our Privacy Statement.
             </div>
-            <div>
+            <div class="captcha">
                 Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
             </div>
         </div>

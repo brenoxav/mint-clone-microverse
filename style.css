@@ -1,0 +1,43 @@
+.d-flex {
+    display: flex;
+}
+
+body {
+    background-color: #ECEEF1;
+}
+
+.logos {
+    width: 23px;
+    height: 23px;
+}
+
+.intuit-logo {
+    width: 118px;
+}
+
+.signin-wrapper {
+    justify-content: flex-end;
+}
+
+.logos-wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+
+}
+
+main {
+    justify-content: center;
+}
+
+.form-wrapper {
+    background-color: white;
+    width: 380px;
+    padding: 30px;
+    flex-direction: column;
+
+}
