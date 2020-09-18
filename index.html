@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,17 +14,13 @@
                 <div>Already have an Intuit account?</div>
                 <div><a href="#">I forgot my User ID or Password</a></div>
             </div>
-            <button>Sign In</button>
+            <button class="signin-button"><ion-icon name="lock-closed-outline"></ion-icon>Sign In</button>
         </div>
         <div class="d-flex logos-wrapper">
             
             <img class="intuit-logo" src="assets/logo-intuit.png" alt="intuit logo">
             <div>
-                <ul>
-                    <li><a href="#" ><img class="logos" src="assets/icon-mint.png"/>Mint</a></li>
-                    <li><a href="#" ><img class="logos" src="assets/icon-quickbooks.jpg"/>Quickbooks</a></li>
-                    <li><a href="#" ><img class="logos" src="assets/icon-turbotax.png"/>TurboTax</a></li>
-                </ul>
+                <img class="logos" src="assets/header-icon.png" alt="header logos"/>
             </div>
         </div>
     </header>
@@ -32,17 +29,19 @@
             <div class="form-header-text">
                 <h2>Create an Intuit account</h2>
                 <div>One account for everything Intuit, including Mint.</div>
-                <a href="#">Learn more</a>
+                <a class="learn-more" href="#">Learn more</a>
             </div>
             <form action="#">
                 <label for="email">Email address</label><br>
                 <input type="email" name="email"><br>
                 <label for="phone">Phone (recommended)</label><br>
                 <input type="tel" name="phone"><br>
-                <div>Standard call, messaging or data rates may apply.</div>
+                <div class="disclaimer">Standard call, messaging or data rates may apply.</div>
                 <label for="password">Password</label><br>
                 <input type="password" name="password"><br>
-                <input class="submit-button" type="submit" name="send" value="Create Account"/>
+                <button class="submit-button" type="submit" name="send">
+                    <ion-icon name="lock-closed-outline"></ion-icon>Create Account
+                </button>
             </form>
             <div class="acknowledgement">
                 By clicking Create account, you agree to our
