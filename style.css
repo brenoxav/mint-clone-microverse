@@ -10,11 +10,24 @@ body {
 }
 
 .logos {
-  margin: 20px 0;
+  margin: 20px 5px 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #8d9096;
+}
+
+.logos * {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .intuit-logo {
   width: 118px;
+}
+
+.product-logos {
+  padding: 0;
+  justify-content: center;
 }
 
 .signin-wrapper {

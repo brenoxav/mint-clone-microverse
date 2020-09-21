@@ -10,19 +10,20 @@
 </head>
 <body>
     <header>
-        <div class="d-flex signin-wrapper">
+        <nav class="d-flex signin-wrapper">
             <div class="signin-text-wrapper">
                 <div>Already have an Intuit account?</div>
                 <div><a href="#">I forgot my User ID or Password</a></div>
             </div>
             <button type="button" class="signin-button"><ion-icon class="icon-svg" name="lock-closed-outline"></ion-icon>Sign In</button>
-        </div>
-        <div class="d-flex logos-wrapper">
-            
+        </nav>
+        <div class="d-flex logos-wrapper">            
             <img class="intuit-logo" src="assets/logo-intuit.png" alt="intuit logo">
-            <div>
-                <img class="logos" src="assets/header-icon.png" alt="header logos"/>
-            </div>
+            <ul class="d-flex product-logos">
+                <li><a class="logos" href="https://www.mint.com/"><img src="assets/mint.png" alt="header logos"/><span>mint</span></a></li>
+                <li><a class="logos" href="https://quickbooks.intuit.com/"><img src="assets/qb.png" alt="header logos"/>quickbooks</a></li>
+                <li><a class="logos" href="http://https://turbotax.intuit.com/"><img src="assets/tt.png" alt="header logos"/>turbotax</a></li>
+            </ul>
         </div>
     </header>
     <main class="d-flex">
