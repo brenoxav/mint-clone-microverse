@@ -10,9 +10,9 @@ body {
 }
 
 .logos * {
-    display: inline-block;
-    vertical-align: middle;
-  }
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .logos {
   margin: 20px 5px 0;
